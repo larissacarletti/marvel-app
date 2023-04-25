@@ -12,6 +12,6 @@ data class Characters(
     val resourceURI: String,
     @SerializedName("extension")
     val extension: String,
-    @SerializedName("path")
+    @SerializedName("poster_path")
     val path: String
 )
